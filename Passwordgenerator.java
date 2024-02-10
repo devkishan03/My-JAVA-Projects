@@ -5,7 +5,7 @@ import java.util.Scanner;
 
 public class Passwordgenerator {
 
-    public String genratepassword(int n) {
+    public String generatepassword(int n) {
         String num = "1234567890";
         String A = "qwertyuiopasdfghjklzxcvbnm";
         String a = "mnbvcxzlkjhgfdsapoiuytrewq";
@@ -38,7 +38,7 @@ public class Passwordgenerator {
                 case 1:
                     System.out.println("enter the length of a password");
                     int n = sc.nextInt();
-                    String passkey = " " + p.genratepassword(n);
+                    String passkey = " " + p.generatepassword(n);
                     byte bi[] = passkey.getBytes();
                     fs.write(bi);
                     fs.flush();
