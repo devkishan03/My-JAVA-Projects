@@ -7,7 +7,7 @@ public class Passwordgenerator {
 
     public String generatepassword(int n) {
         String num = "1234567890";
-        String A = "qwertyuiopasdfghjklzxcvbnm";
+        String A = "QWERTYUIOPASDFGHJKLZXCVBNM";
         String a = "mnbvcxzlkjhgfdsapoiuytrewq";
         String ch = "!@#$%&";
         String combination = num + A + ch + a;
